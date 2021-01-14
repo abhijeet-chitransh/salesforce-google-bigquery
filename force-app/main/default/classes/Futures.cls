@@ -5,7 +5,7 @@ public class Futures {
 
     @future(callout=true)
     public static void sendOrderToGoogleBigQuery(Id orderId) {
-        String projectId = 'bigquery-sf-muenzpraeger';
+        String projectId = 'test';
         String datasetId = 'OrderHistory';
         String tableId = 'Salesforce';
 
